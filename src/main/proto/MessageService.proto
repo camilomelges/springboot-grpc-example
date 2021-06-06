@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.rafamilo.springbootgrpc.messages;
+
+message MessageRequest {
+    string content = 1;
+}
+
+message MessageResponse {
+    string content = 1;
+}
+
+service MessageService {
+    rpc hello(MessageRequest) returns (MessageResponse);
+}
