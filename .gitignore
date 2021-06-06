@@ -4,6 +4,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+src/main/java/com/rafamilo/springbootgrpc/messages
+!src/main/java/com/rafamilo/springbootgrpc/messages/client/
+!src/main/java/com/rafamilo/springbootgrpc/messages/server/
+
 ### STS ###
 .apt_generated
 .classpath
